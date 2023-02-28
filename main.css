@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.img img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+    margin-left: 100px;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+.text-img{
+    position: absolute;
+    width: 400px;
+    height: 130px;
+    left: 100px;
+    top: 320px;
+    border: 1px solid red;
+    background-color: rgb(230, 230, 92);
+    border: none;
+    opacity: 40%;
+    
+}
+h3{
+    color: rgb(32, 19, 19);
+}
+.text-img span{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 1000;
+    margin: 20px 20px;
+    padding: 20px 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 95px;
+    margin-bottom: 50px;
+}
+.main-left img{
+    border-top: 5px solid yellow;
+    margin-bottom: 20px;
+
+}
+.main-right img{
+    border-top: 5px solid yellow;
+    margin-bottom: 20px;
+}
+.main-left h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main-right h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.main-left span{
+    font-size: 25px;
+}
+.main-right span{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 95px;
+}
+.container-left img{
+    border-top: 5px solid yellow;
+    margin-bottom: 30px;
+}
+.container-right img{
+    width: 600px;
+    height: 395px;
+    border-top: 5px solid yellow;
+    margin-bottom: 30px;
+}
+.container-left h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container-right h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.container-left span{
+    font-size: 25px;
+}
+.container-right span{
+    font-size: 25px;
+}
